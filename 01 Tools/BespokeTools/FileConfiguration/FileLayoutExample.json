@@ -1,0 +1,39 @@
+{
+  "FileType": 1,
+  "Delimiter": ";",
+  "HasHeader": true,
+  "TrimFields": false,
+  "FileMapping": {
+    "Fields": [
+      {
+        "Name": "EmployeeExtId",
+        "Start": 0,
+        "Length": 0,
+        "Identifier": "UserNote20"
+      },
+      {
+        "Name": "BookDate",
+        "Start": 1,
+        "Length": 0,
+        "Format": "yyyy/MM/dd"
+      },
+      {
+        "Name": "ItemExtId",
+        "Start": 2,
+        "Length": 0,
+        "Identifier": "Code"
+      },
+      {
+        "Name": "OrginalValue",
+        "Start": 3,
+        "Length": 0
+      },
+      {
+        "Name": "Type",
+        "Start": 4,
+        "Length": 0,
+        "Filter": "Counter"
+      }
+    ]
+  }
+}
