@@ -33,16 +33,6 @@ namespace Protime.Bespoke
                     }
                 }
             }
-
-            //var sb = new StringBuilder();
-            //foreach (var csvFile in csvFiles)
-            //    using (var sr = new StreamReader(csvFile.OpenRead()))
-            //    {
-            //        sr.ReadLine(); // Discard header line
-            //        while (!sr.EndOfStream)
-            //            sb.AppendLine(sr.ReadLine());
-            //    }
-            //File.AppendAllText(Path.Combine(sourceDirectory, "output.csv"), sb.ToString());
         }
     }
 }
